@@ -1,0 +1,131 @@
+body {
+    overflow-x: hidden;
+}
+
+.row-margin {
+    margin-bottom: 0px;
+}
+
+.hide-contact-2 {
+    display: none;
+}
+
+.brand-logo {
+    margin-left: 15px;
+    position: relative;
+    animation-name: logo-move;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-delay: 900ms;
+}
+
+@keyframes logo-move {
+    0% {left:-25%}
+    100% {left: 0%}
+}
+
+.sidenav-trigger {
+    position: relative;
+    animation-name: hamburger-move;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+    animation-delay: 2300ms;
+}
+
+@keyframes hamburger-move {
+    0% {right: -5%}
+    100% {right: 0%}
+}
+
+#profile-pic {
+    
+    /* position: relative;
+    animation-name: yolo-move;
+    animation-duration: 3s; */
+}
+
+@keyframes yolo-move {
+    0% {right:-105%}
+    100% {right:0%}
+}
+
+#logo {
+    left: 0rem;
+}
+
+/* Mobile (up to and including 400px) */
+@media screen and (max-width: 400px) {
+
+    .hide-contact-1 {
+        display: none;
+    }
+
+    .hide-contact-2 {
+        display: inline;
+    }
+
+    #profile-pic {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 70%;
+    }
+
+    @keyframes logo-move {
+        0% {left:-70%}
+        100% {left: 0%}
+    }
+
+    @keyframes hamburger-move {
+        0% {right: -15%}
+        100% {right: 0%}
+    }
+
+    @keyframes yolo-move {
+        0% {right:-122%}
+        100% {right:0%}
+    }
+
+}
+
+/* Mobile (401px to 600px) */
+@media screen and (min-width: 401px) and (max-width: 600px) {
+
+    #profile-pic {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 70%;
+    }
+
+    @keyframes logo-move {
+        0% {left:-70%}
+        100% {left: 0%}
+    }
+
+    @keyframes hamburger-move {
+        0% {right: -15%}
+        100% {right: 0%}
+    }
+
+    @keyframes yolo-move {
+        0% {right:-122%}
+        100% {right:0%}
+    }
+
+}
+
+/* Tablet (601px to 991px) */
+@media screen and (min-width: 601px) and (max-width: 991px) {
+
+    @keyframes logo-move {
+        0% {left:-30%}
+        100% {left: 0%}
+    }
+
+    @keyframes hamburger-move {
+        0% {right: -8%}
+        100% {right: 0%}
+    }
+
+}
