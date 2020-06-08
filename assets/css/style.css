@@ -10,7 +10,15 @@ body {
     display: none;
 }
 
+.border-bottom {
+    border-bottom: 1px solid rgba(160,160,160,0.2);
+}
+
 .brand-logo {
+    margin-left: 15px;
+}
+
+.brand-logo-move {
     margin-left: 15px;
     position: relative;
     animation-name: logo-move;
@@ -24,7 +32,7 @@ body {
     100% {left: 0%}
 }
 
-.sidenav-trigger {
+.sidenav-trigger-move {
     position: relative;
     animation-name: hamburger-move;
     animation-duration: 2s;
