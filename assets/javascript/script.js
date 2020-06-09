@@ -7,20 +7,36 @@ var cardDiv = $("#card-div");
 
 var projectArr = [
   {
+    image: "wedding-helper-app.png",
+    title: "Wedding Helper",
+    subTitle: "jQuery & APIs",
+    description: "Prototype application developed with a team. The Wedding Helper will streamline your wedding planning utilizing Etsy and Deezer APIs to simplify registry and DJ playlist process, while sending the couple a nice message and storing the info in a database.",
+    deployed: "https://bearjams.github.io/project1-repo/",
+    code: "https://github.com/Bearjams/project1-repo"
+  },
+  {
     image: "train-schedule.png",
-    title: "Train Schedule App",
+    title: "Train Schedule",
     subTitle: "jQuery & Firebase",
-    description: "Train Schedule App is a web-based program used to calculate and catalog next arrival times and minutes until next arrival. The app was built with jQuery and utilizes the Materialize CSS framework. It also incorporates a Firebase database for data persistence and Moment.js for real-time date/time integration.",
+    description: "Train Schedule App is used to calculate and catalog train times. It was built with jQuery and utilizes the Materialize CSS framework. It incorporates a Firebase database for data persistence and Moment.js for real-time date/time integration.",
     deployed: "https://jarrettd5309.github.io/train-schedule/",
     code: "https://github.com/JarrettD5309/train-schedule"
   },
   {
     image: "baseball-gif-app.png",
-    title: "Baseball Gif App",
+    title: "Baseball Gif",
     subTitle: "jQuery & API",
     description: "Baseball Gif App is a web-based program used to find gifs from baseball teams. It was built with jQuery and utilizes multiple APIs.",
     deployed: "https://jarrettd5309.github.io/gif-app/",
     code: "https://github.com/JarrettD5309/gif-app"
+  },
+  {
+    image: "punk-hangman.png",
+    title: "Punk Hangman",
+    subTitle: "JavaScript",
+    description: 'Punk Hangman is a word guess game built with JavaScript. It incorporates a "punk" theme for visual, audio, and content presentation.',
+    deployed: "https://jarrettd5309.github.io/word-guess-game/",
+    code: "https://github.com/JarrettD5309/word-guess-game"
   }
 
 ]
@@ -42,7 +58,7 @@ for (var i=0; i<projectArr.length; i++) {
   var revealDiv = $("<div>").addClass("card-reveal");
   var revealTitleSpan = $("<span>").addClass("card-title grey-text text-darken-4").html(projectArr[i].title + '<i class="material-icons right">close</i>');
   revealDiv.append(revealTitleSpan);
-  var descriptionPara = $("<p>").text(projectArr[i].description);
+  var descriptionPara = $("<p>").addClass("description-text").text(projectArr[i].description);
   revealDiv.append(descriptionPara);
   newCard.append(revealDiv);
 

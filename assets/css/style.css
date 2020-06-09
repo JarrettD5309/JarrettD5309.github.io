@@ -60,6 +60,14 @@ body {
         display: inline;
     }
 
+    .card-title {
+        font-size: 20px !important;
+    }
+
+    .description-text {
+        font-size: 13px !important;
+    }
+
     #profile-pic {
         display: block;
         margin-right: auto;
@@ -101,8 +109,31 @@ body {
 
 }
 
-/* Tablet (601px to 991px) */
-@media screen and (min-width: 601px) and (max-width: 991px) {
+/* Tablet (601px to 660px) */
+@media screen and (min-width: 601px) and (max-width: 660px) {
+
+    @keyframes logo-move {
+        0% {left:-42%}
+        100% {left: 0%}
+    }
+
+    @keyframes hamburger-move {
+        0% {right: -8%}
+        100% {right: 0%}
+    }
+
+    .card-title {
+        font-size: 20px !important;
+    }
+
+    .description-text {
+        font-size: 13px !important;
+    }
+
+}
+
+/* Tablet (661px to 991px) */
+@media screen and (min-width: 661px) and (max-width: 991px) {
 
     @keyframes logo-move {
         0% {left:-42%}
