@@ -18,6 +18,11 @@ body {
     margin-left: 15px;
 }
 
+.light-weight {
+    font-weight: 300;
+    border-bottom: 1px solid rgba(116, 116, 116, 0.2);
+}
+
 .brand-logo-move {
     margin-left: 15px;
     position: relative;
@@ -109,8 +114,8 @@ body {
 
 }
 
-/* Tablet (601px to 660px) */
-@media screen and (min-width: 601px) and (max-width: 660px) {
+/* Tablet (601px to 690px) */
+@media screen and (min-width: 601px) and (max-width: 690px) {
 
     @keyframes logo-move {
         0% {left:-42%}
@@ -132,8 +137,8 @@ body {
 
 }
 
-/* Tablet (661px to 991px) */
-@media screen and (min-width: 661px) and (max-width: 991px) {
+/* Tablet (691px to 991px) */
+@media screen and (min-width: 691px) and (max-width: 991px) {
 
     @keyframes logo-move {
         0% {left:-42%}
