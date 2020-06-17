@@ -7,6 +7,22 @@ var cardDiv = $("#card-div");
 
 var projectArr = [
   {
+    image: "liri-inquirer-app.png",
+    title: "Liri Inquirer",
+    subTitle: "Node.js & APIs",
+    description: "Liri Inquirer App is a Node.js program which can search and return data from Spotify, Bands In Town, and OMDB using API calls. Inquirer prompts quickly allow the user to access returned data from the command line terminal.",
+    deployed: "https://github.com/JarrettD5309/liri-inquirer",
+    code: "https://github.com/JarrettD5309/liri-inquirer"
+  },
+  {
+    image: "liri-node-app.png",
+    title: "Liri Node",
+    subTitle: "Node.js & APIs",
+    description: "Liri Node App is a Node.js program which can search and return data from Spotify, Bands In Town, and OMDB using API calls. The commands and returned data can easily be entered and read from a command line terminal.",
+    deployed: "https://github.com/JarrettD5309/liri-node-app",
+    code: "https://github.com/JarrettD5309/liri-node-app"
+  },
+  {
     image: "wedding-helper-app.png",
     title: "Wedding Helper",
     subTitle: "jQuery & APIs",
