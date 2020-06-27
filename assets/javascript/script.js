@@ -1,6 +1,6 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   var elems = document.querySelectorAll('.sidenav');
-  var instances = M.Sidenav.init(elems, {edge:'right'});
+  var instances = M.Sidenav.init(elems, { edge: 'right' });
 });
 
 var cardDiv = $("#card-div");
@@ -11,7 +11,6 @@ var projectArr = [
     title: "Liri Inquirer",
     subTitle: "Node.js & APIs",
     description: "Liri Inquirer App is a Node.js program which can search and return data from Spotify, Bands In Town, and OMDB using API calls. Inquirer prompts quickly allow the user to access returned data from the command line terminal.",
-    deployed: "https://github.com/JarrettD5309/liri-inquirer",
     code: "https://github.com/JarrettD5309/liri-inquirer"
   },
   {
@@ -19,7 +18,6 @@ var projectArr = [
     title: "Liri Node",
     subTitle: "Node.js & APIs",
     description: "Liri Node App is a Node.js program which can search and return data from Spotify, Bands In Town, and OMDB using API calls. The commands and returned data can easily be entered and read from a command line terminal.",
-    deployed: "https://github.com/JarrettD5309/liri-node-app",
     code: "https://github.com/JarrettD5309/liri-node-app"
   },
   {
@@ -57,11 +55,11 @@ var projectArr = [
 
 ]
 
-for (var i=0; i<projectArr.length; i++) {
+for (var i = 0; i < projectArr.length; i++) {
   var newCol = $("<div>").addClass("col s12 m6");
   var newCard = $("<div>").addClass("card sticky-action hoverable");
 
-  var imageDiv = $("<div>").addClass("card-image waves-effect waves-block waves-light").append($("<img>").addClass("border-bottom activator").attr("src", "assets/images/"+projectArr[i].image));
+  var imageDiv = $("<div>").addClass("card-image waves-effect waves-block waves-light").append($("<img>").addClass("border-bottom activator").attr("src", "assets/images/" + projectArr[i].image));
   newCard.append(imageDiv);
 
   var contentDiv = $("<div>").addClass("card-content")
@@ -79,9 +77,12 @@ for (var i=0; i<projectArr.length; i++) {
   newCard.append(revealDiv);
 
   var actionDiv = $("<div>").addClass("card-action");
-  var deployedAnchor = $("<a>").attr("href",projectArr[i].deployed).attr("target", "_blank").text("Deployed");
-  actionDiv.append(deployedAnchor);
-  var codeAnchor = $("<a>").attr("href",projectArr[i].code).attr("target", "_blank").text("Code");
+  if ("deployed" in projectArr[i]) {
+    var deployedAnchor = $("<a>").attr("href", projectArr[i].deployed).attr("target", "_blank").text("Deployed");
+    actionDiv.append(deployedAnchor);
+  }
+
+  var codeAnchor = $("<a>").attr("href", projectArr[i].code).attr("target", "_blank").text("Code");
   actionDiv.append(codeAnchor);
   newCard.append(actionDiv);
 
