@@ -7,6 +7,13 @@ var cardDiv = $("#card-div");
 
 var projectArr = [
   {
+    image: "inventory-app.png",
+    title: "Store & Inventory",
+    subTitle: "Node.js & MySQL",
+    description: "Storefront and Inventory App is a Node.js CLI program that mimics an Amazon-like store, utilizing a MySQL database. The app includes three different user experiences, each with its own functionality.",
+    code: "https://github.com/JarrettD5309/inventory-store"
+  },
+  {
     image: "liri-inquirer-app.png",
     title: "Liri Inquirer",
     subTitle: "Node.js & APIs",
