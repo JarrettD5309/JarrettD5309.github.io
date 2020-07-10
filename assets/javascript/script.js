@@ -7,6 +7,14 @@ var cardDiv = $("#card-div");
 
 var projectArr = [
   {
+    image: "friend-finder.png",
+    title: "Friend Finder",
+    subTitle: "Full-Stack",
+    description: "Friend Finder is a full-stack application which uses a personality quiz to match the user with a character from 'The Office'. The app uses Node.js and Express.js on the server side and HTML, Bootstrap, and jQuery on the client side.",
+    deployed: "https://sheltered-plateau-99429.herokuapp.com/",
+    code: "https://github.com/JarrettD5309/friend-finder"
+  },
+  {
     image: "inventory-app.png",
     title: "Store & Inventory",
     subTitle: "Node.js & MySQL",
