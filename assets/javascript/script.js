@@ -7,6 +7,14 @@ var cardDiv = $("#card-div");
 
 var projectArr = [
   {
+    image: "burger.png",
+    title: "Burger Log",
+    subTitle: "Full-Stack",
+    description: "Burger Log is a full-stack application which uses a simple menu interface to allow users to enter, catalog, and 'eat' hamburgers. The application uses Node.js, Express.js, a custom ORM, MySQL, Express Handlebars, and a custom CSS.",
+    deployed: "https://secure-sea-97992.herokuapp.com/",
+    code: "https://github.com/JarrettD5309/burger"
+  },
+  {
     image: "friend-finder.png",
     title: "Friend Finder",
     subTitle: "Full-Stack",
