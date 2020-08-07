@@ -7,6 +7,14 @@ var cardDiv = $("#card-div");
 
 var projectArr = [
   {
+    image: "same-page.png",
+    title: "Same Page",
+    subTitle: "Full-Stack",
+    description: "Same Page is a full-stack application, create by a team, that allows users to search, recommend, and vote for books. The app uses Node.js, Express.js, Sequelize, and many more. I was in charge of the user sign up/login process and the server routes.",
+    deployed: "https://salty-garden-60237.herokuapp.com/",
+    code: "https://github.com/DominiqueGriffith/project_2"
+  },
+  {
     image: "burger.png",
     title: "Burger Log",
     subTitle: "Full-Stack",
