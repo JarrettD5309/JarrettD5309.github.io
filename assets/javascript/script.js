@@ -12,7 +12,7 @@ var projectArr = [
     subTitle: "Full-Stack",
     description: "Same Page is a full-stack application, created by a team, that allows users to search, recommend, and vote for books. The app uses Node.js, Express.js, and Sequelize. I was in charge of the user sign up/login process and the server routes.",
     deployed: "https://salty-garden-60237.herokuapp.com/",
-    code: "https://github.com/DominiqueGriffith/project_2"
+    code: "https://github.com/JarrettD5309/project-2-copy"
   },
   {
     image: "burger.png",
