@@ -7,6 +7,14 @@ var cardDiv = $("#card-div");
 
 var projectArr = [
   {
+    image: "mongo-scraper.png",
+    title: "News Scraper",
+    subTitle: "Full-Stack",
+    description: "Democracy Now Scraper is a full-stack application that allows users to scrape, display, and comment on news columns. The application uses Node.js, Express.js, and Mongoose. Data persistence is achieved with a MongoDB database.",
+    deployed: "https://mongo-scraper-homework-demnow.herokuapp.com/",
+    code: "https://github.com/JarrettD5309/mongo-scraper"
+  },
+  {
     image: "same-page.png",
     title: "Same Page",
     subTitle: "Full-Stack",
