@@ -7,6 +7,14 @@ var cardDiv = $("#card-div");
 
 var projectArr = [
   {
+    image: "clicky-game.png",
+    title: "Memory Game",
+    subTitle: "React.js",
+    description: 'Breakbeat Hardcore Memory is a game created with React.js. The theme of the game is early 1990s Breakbeat Hardcore UK Rave music, utilizing classic 12" record labels.',
+    deployed: "https://jarrettd5309.github.io/clicky-game/",
+    code: "https://github.com/JarrettD5309/clicky-game"
+  },
+  {
     image: "mongo-scraper.png",
     title: "News Scraper",
     subTitle: "Full-Stack",
