@@ -7,6 +7,14 @@ var cardDiv = $("#card-div");
 
 var projectArr = [
   {
+    image: "google-books-mern.png",
+    title: "Book Search",
+    subTitle: "MERN",
+    description: 'Google Books Search is a full-stack MERN application that allows users to search for and save books. The search feature utlizes the Google Books API. The application is built with React.js, Node.js, Express.js, and MongoDB.',
+    deployed: "https://google-books-react-project.herokuapp.com/",
+    code: "https://github.com/JarrettD5309/google-books-search"
+  },
+  {
     image: "clicky-game.png",
     title: "Memory Game",
     subTitle: "React.js",
