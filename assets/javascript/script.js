@@ -7,6 +7,14 @@ var cardDiv = $("#card-div");
 
 var projectArr = [
   {
+    image: "tennis-match.png",
+    title: "TennisMatch",
+    subTitle: "Full-Stack",
+    description: 'TennisMatch is an interactive scheduling application that helps players to schedule tennis matches with other players. The application is built with React.js, Node.js, Express.js, and MySQL.',
+    deployed: "https://tennis-match-react.herokuapp.com/",
+    code: "https://github.com/greg-a/tennis-match-react"
+  },
+  {
     image: "google-books-mern.png",
     title: "Book Search",
     subTitle: "MERN",
