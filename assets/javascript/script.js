@@ -7,6 +7,14 @@ var cardDiv = $("#card-div");
 
 var projectArr = [
   {
+    image: "ravenous.png",
+    title: "Ravenous",
+    subTitle: "React & API",
+    description: "This is a React.js project from Codecademy to create a website which can search businesses by location. The app uses the Yelp API.",
+    deployed: "https://ravenous-jarrett-d.herokuapp.com/",
+    code: "https://github.com/JarrettD5309/ravenous"
+  },
+  {
     image: "sf-website.png",
     title: "Band Website",
     subTitle: "HTML & CSS",
