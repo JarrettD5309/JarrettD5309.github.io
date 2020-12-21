@@ -7,6 +7,14 @@ var cardDiv = $("#card-div");
 
 var projectArr = [
   {
+    image: "kristina-centore.png",
+    title: "Portfolio Site",
+    subTitle: "HTML & CSS",
+    description: "Kristina Centore's professional website and portfolio was created and is maintained by myself, Jarrett Dougherty. The site utilizes HTML, CSS, client-side JavaScript, and Bootstrap.",
+    deployed: "http://kristinacentore.com/",
+    code: "https://github.com/JarrettD5309/kristina-website"
+  },
+  {
     image: "ravenous.png",
     title: "Ravenous",
     subTitle: "React & API",
