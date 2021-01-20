@@ -7,6 +7,14 @@ var cardDiv = $("#card-div");
 
 var projectArr = [
   {
+    image: 'moodconnect-home.png',
+    title: "Company Site",
+    subTitle: "HTML & CSS",
+    description: "The MoodConnect website was built using HTML, CSS, JavaScript, and Bootstrap. The site design meets the company founder's goals for both presentation and function. It is deployed through AWS.",
+    deployed: "https://www.moodconnect.com",
+    code: "https://github.com/JarrettD5309/mood-connect"
+  },
+  {
     image: "kristina-centore.png",
     title: "Portfolio Site",
     subTitle: "HTML & CSS",
