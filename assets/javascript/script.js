@@ -12,7 +12,7 @@ var projectArr = [
     subTitle: "HTML & CSS",
     description: "The MoodConnect website was built using HTML, CSS, JavaScript, and Bootstrap. The site design meets the company founder's goals for both presentation and function. It is deployed through AWS.",
     deployed: "https://www.moodconnect.com",
-    code: "https://github.com/JarrettD5309/mood-connect"
+    code: "https://github.com/MoodConnect/mood-connect"
   },
   {
     image: "kristina-centore.png",
