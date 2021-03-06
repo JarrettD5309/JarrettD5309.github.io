@@ -1,6 +1,6 @@
 # Jarrett Dougherty's Portfolio
 <https://jarrettd5309.github.io> \
-Last Updated - Feb 28, 2021
+Last Updated - Mar 05, 2021
 
 ## About Me
 Jarrett Dougherty is a full-stack web developer who also specializes in social media and project management. The experience of helping people turn their dream projects into realities is the driving force behind his work. He holds a degree from Rutgers University (BS), awarded with highest honors, and recently received a certificate in Full-Stack Web Development from the University of Pennsylvania.

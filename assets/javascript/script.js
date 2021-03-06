@@ -7,6 +7,14 @@ var cardDiv = $("#card-div");
 
 var projectArr = [
   {
+    image: 'sf-tour-archive.png',
+    title: "Tour Archive",
+    subTitle: "MERN",
+    description: "Screaming Females Tour Archive is an interactive archive of performance information. The application allows users to browse and search the archives in numerous ways and allows users to add information to the archive.",
+    deployed: "https://screamingfemalestourarchive.com/",
+    code: "https://github.com/JarrettD5309/sf-show-archive"
+  },
+  {
     image: 'moodconnect-home.png',
     title: "Company Site",
     subTitle: "HTML & CSS",
